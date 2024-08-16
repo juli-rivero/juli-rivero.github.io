@@ -5,18 +5,28 @@ function Main() {
     <main
       style={{
         height: "100%",
-        display:"flex",
-        alignItems:"center",
-        justifyContent:"space-around",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-around",
         padding: "4rem",
-        position:"relative"
+        position: "relative",
       }}
     >
-      <h6
-        style={{ position: "absolute", margin:"1.5rem", top: 0, right: 0 }}
+      <div
+        className="markdown-body"
+        style={{
+          position: "absolute",
+          margin: "1rem",
+          top: 0,
+          right: 0,
+          boxShadow: ".5rem 0 1rem #000",
+          paddingInline: "1rem",
+          paddingBlock: ".5rem",
+          borderRadius:".1rem"
+        }}
       >
-        Mis Proyectos
-      </h6>
+        <h6>Proyectos</h6>
+      </div>
       <Proyect
         title="FIUBA Share"
         description="Sitio web en donde compartir las resoluciones de los trabajos prácticos de cualquier tipo de cursada en FIUBA."

@@ -19,7 +19,7 @@ function SobreMi() {
       <h6
         style={{ position: "absolute", margin:0, top: 0, right: 0 }}
       >
-        Portafolio
+        Perfil
       </h6>
       <h1>Julián Rivero</h1>
       <InformacionGeneral />

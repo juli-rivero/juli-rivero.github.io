@@ -16,7 +16,7 @@ function Idiomas() {
   }, []);
   return (
     <>
-      <h3>Idiomas</h3>
+      <h2>Idiomas</h2>
       <ul>
         <li
           role="Ingles"

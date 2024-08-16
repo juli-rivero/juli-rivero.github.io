@@ -1,14 +1,11 @@
-import AnimatedLink from "../../../UI/AnimatedLink";
 import { IconType } from "react-icons";
 
-function ListItem({
+function LiIcon({
   children,
-  href,
   Icon,
   tooltip,
 }: {
-  children: string;
-  href: string;
+  children: React.ReactNode;
   Icon: IconType;
   tooltip: string;
 }) {
@@ -25,9 +22,9 @@ function ListItem({
       }}
     >
       <Icon size="1.5rem" />
-      <AnimatedLink href={href}>{children}</AnimatedLink>
+      {children}
     </li>
   );
 }
 
-export default ListItem;
+export default LiIcon;

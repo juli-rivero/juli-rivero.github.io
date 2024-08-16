@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-function ListItemMeter({
+function LiProgress({
   label,
   value,
   tooltip,
@@ -47,4 +47,4 @@ function ListItemMeter({
   );
 }
 
-export default ListItemMeter;
+export default LiProgress;

@@ -9,8 +9,14 @@ function Main() {
         alignItems:"center",
         justifyContent:"space-around",
         padding: "4rem",
+        position:"relative"
       }}
     >
+      <h6
+        style={{ position: "absolute", margin:"1.5rem", top: 0, right: 0 }}
+      >
+        Mis Proyectos
+      </h6>
       <Proyect
         title="FIUBA Share"
         description="Sitio web en donde compartir las resoluciones de los trabajos prácticos de cualquier tipo de cursada en FIUBA."

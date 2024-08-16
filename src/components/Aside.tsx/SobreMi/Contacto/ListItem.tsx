@@ -5,13 +5,16 @@ function ListItem({
   children,
   href,
   Icon,
+  tooltip,
 }: {
   children: string;
   href: string;
   Icon: IconType;
+  tooltip: string;
 }) {
   return (
     <li
+      title={tooltip}
       style={{
         overflow: "hidden",
         textWrap: "nowrap",

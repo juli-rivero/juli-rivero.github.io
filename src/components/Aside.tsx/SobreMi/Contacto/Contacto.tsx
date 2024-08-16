@@ -15,16 +15,16 @@ function Contacto() {
           staggerChildren: 0.25,
         }}
       >
-        <ListItem href="https://github.com/juli-rivero" Icon={AiFillGithub}>
+        <ListItem tooltip="GitHub" href="https://github.com/juli-rivero" Icon={AiFillGithub}>
         juli-rivero
         </ListItem>
-        <ListItem href="mailto:julian.jar.rivero@gmail.com" Icon={CiMail}>
+        <ListItem tooltip="Mail" href="mailto:julian.jar.rivero@gmail.com" Icon={CiMail}>
             julian.jar.rivero@gmail.com
         </ListItem>
-        <ListItem href="https://www.linkedin.com/in/juli%C3%A1n-rivero-b6aaa2304/" Icon={CiLinkedin}>
+        <ListItem tooltip="LinkedIn" href="https://www.linkedin.com/in/juli%C3%A1n-rivero-b6aaa2304/" Icon={CiLinkedin}>
         Julián (Agustín) Rivero
         </ListItem>
-        <ListItem href="https://www.instagram.com/_juli_rivero/" Icon={CiInstagram}>
+        <ListItem tooltip="Instagram" href="https://www.instagram.com/_juli_rivero/" Icon={CiInstagram}>
         _juli_rivero
         </ListItem>
       </motion.ul>

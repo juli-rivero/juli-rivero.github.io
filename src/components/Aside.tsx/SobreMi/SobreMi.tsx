@@ -1,9 +1,9 @@
-import Contacto from "./Contacto/Contacto";
-import Descripcion from "./Descripcion";
 import Idiomas from "./Idiomas";
 import LenguajesDeProgramacion from "./LenguajesDeProgramacion";
 import Herramientas from "./Herramientas";
 import Aptitudes from "./Aptitudes";
+import FormacionAcademica from "./FormacionAcademica";
+import InformacionGeneral from "./InformacionGeneral";
 
 function SobreMi() {
   return (
@@ -22,9 +22,9 @@ function SobreMi() {
         Portafolio
       </h6>
       <h1>Julián Rivero</h1>
-      <Descripcion />
-      <Contacto />
+      <InformacionGeneral />
       <Aptitudes />
+      <FormacionAcademica />
       <Idiomas />
       <LenguajesDeProgramacion />
       <Herramientas />

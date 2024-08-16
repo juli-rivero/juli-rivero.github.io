@@ -1,0 +1,73 @@
+html,
+body,
+#root {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /*dark*/
+    color-scheme: dark;
+    --main-bgColor: hsl(216, 28%, 5%);
+    --fill-progress:#ab7df8;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /*light*/
+    color-scheme: light;
+    --main-bgColor: #ffffff99;
+    --fill-progress:#4493f8;
+  }
+}
+
+
+/* Link animation */
+
+ul:hover li {
+  transition: opacity .1s;
+  opacity: 0.35;
+}
+ul:hover li:hover {
+  opacity: 1;
+  box-shadow: 0 2px 0 0 currentcolor;
+}
+
+/* Progress */
+
+progress {
+  appearance: none;
+  width: 100%;
+  border-radius: 1px;
+  overflow: hidden;
+  border: none;
+  background: var(--bgColor-neutral-muted);
+  filter: brightness(0.55);
+}
+progress::-webkit-progress-bar {
+  background: var(--bgColor-neutral-muted);
+  border-radius: 1px;
+}
+progress::-moz-progress-bar {
+  border-radius: 1px 0 0 1px;
+  background: var(--fill-progress);
+}
+progress::-webkit-progress-value {
+  border-radius: 1px 0 0 1px;
+  background: var(--fill-progress);
+}
+
+/* Del */
+
+del {
+  text-decoration: line-through;
+}
+
+main {
+  background-color: var(--main-bgColor);
+  box-shadow: inset .5rem -1rem 1rem #000;
+}

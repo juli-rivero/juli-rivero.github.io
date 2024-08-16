@@ -3,6 +3,7 @@ import Descripcion from "./Descripcion";
 import Idiomas from "./Idiomas";
 import LenguajesDeProgramacion from "./LenguajesDeProgramacion";
 import Herramientas from "./Herramientas";
+import Aptitudes from "./Aptitudes";
 
 function SobreMi() {
   return (
@@ -23,6 +24,7 @@ function SobreMi() {
       <h1>Julián Rivero</h1>
       <Descripcion />
       <Contacto />
+      <Aptitudes />
       <Idiomas />
       <LenguajesDeProgramacion />
       <Herramientas />

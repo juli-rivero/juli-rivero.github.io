@@ -6,10 +6,21 @@ import Herramientas from "./Herramientas";
 
 function SobreMi() {
   return (
-    <article className="markdown-body" style={{padding:"2rem", height:"100%", overflowY:"auto", boxSizing:"border-box" ,position:"relative"}}>
-
+    <article
+      style={{
+        width: "32rem",
+        maxWidth: "calc(100vw - 3rem)",
+        paddingLeft: "2rem",
+        boxSizing:"border-box",
+        position: "relative",
+      }}
+    >
+      <h6
+        style={{ position: "absolute", margin:0, top: 0, right: 0 }}
+      >
+        Portafolio
+      </h6>
       <h1>Julián Rivero</h1>
-      <h6 style={{position:"absolute", margin:"2rem", top:0, right:0}}>Portafolio</h6>
       <Descripcion />
       <Contacto />
       <Idiomas />

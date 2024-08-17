@@ -37,7 +37,7 @@ function InformacionGeneral() {
           </LiLinkIcon>
           <LiLinkIcon
             tooltip="LinkedIn"
-            href="https://www.linkedin.com/in/juli%C3%A1n-rivero-b6aaa2304/"
+            href="https://www.linkedin.com/in/juli-rivero/"
             Icon={CiLinkedin}
           >
             Julián (Agustín) Rivero

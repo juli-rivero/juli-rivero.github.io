@@ -34,7 +34,7 @@ function Idiomas() {
               ref={progressRef}
               style={{height:"1.25rem"}}
               id="ingles"
-              value={53}
+              value={60}
               max={100}
             >
               B1-B2

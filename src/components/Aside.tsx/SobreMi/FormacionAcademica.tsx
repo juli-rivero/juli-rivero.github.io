@@ -49,7 +49,7 @@ function FormacionAcademica() {
         <Li
           nivel="Secundario"
           instituto="Instituto Juan XXIII"
-          titulo="Técnico en Informática Profesional y Personal"
+          titulo="Técnico en Informática Personal y Profesional"
           añoEgreso={2023}
           extras={["2° Escolta Papal", "Promedio General: 8.80/10"]}
         />

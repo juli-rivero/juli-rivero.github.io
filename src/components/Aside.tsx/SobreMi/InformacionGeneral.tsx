@@ -18,7 +18,7 @@ const LiLinkIcon = ({
   tooltip: string;
 }) => (
   <LiIcon Icon={Icon} tooltip={tooltip}>
-    <a style={{color:"inherit"}} href={href}>{children}</a>
+    <a target="_blank" style={{color:"inherit"}} href={href}>{children}</a>
   </LiIcon>
 );
 

@@ -1,8 +1,5 @@
-import { FaReact } from "react-icons/fa";
-import Chip from "../UI/Chip";
 import Proyect from "./Proyect";
-import { SiFlutter, SiTypescript } from "react-icons/si";
-import { IconBaseProps } from "react-icons";
+import * as TechLabels from "../UI/TechLabels"
 
 function Main() {
   return (
@@ -51,12 +48,8 @@ function Main() {
         }
         topics={
           <>
-            <LanguageChip Icon={FaReact} text="React" color="#61DAFB" />
-            <LanguageChip
-              Icon={SiTypescript}
-              text="TypeScript"
-              color="#3178C6"
-            />
+            <TechLabels.React/>
+            <TechLabels.TypeScript/>
           </>
         }
         github_url="https://github.com/juli-rivero/FIUBA-Share"
@@ -80,7 +73,7 @@ function Main() {
         }
         topics={
           <>
-            <LanguageChip Icon={SiFlutter} text="Flutter" color="#02569B" />
+            <TechLabels.Flutter />
           </>
         }
         github_url="https://github.com/juli-rivero/El_Asalto"
@@ -89,28 +82,5 @@ function Main() {
     </main>
   );
 }
-
-const LanguageChip = ({
-  color,
-  Icon,
-  text,
-}: {
-  color: string;
-  Icon: React.ComponentType<IconBaseProps>;
-  text: string;
-}) => (
-  <Chip
-    style={{
-      display: "flex",
-      gap: "0.5rem",
-      alignItems: "center",
-      backgroundColor: "transparent",
-      color: color,
-    }}
-  >
-    <Icon />
-    <span>{text}</span>
-  </Chip>
-);
 
 export default Main;

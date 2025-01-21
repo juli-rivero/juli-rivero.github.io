@@ -27,7 +27,7 @@ const Li = ({
           }}
         >
           {extras.map((extra) => (
-            <Chip fontSize="small">{extra}</Chip>
+            <Chip key={extra} fontSize="small">{extra}</Chip>
           ))}
         </div>
       )}

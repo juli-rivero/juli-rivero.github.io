@@ -3,7 +3,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 import LiIcon from "../../UI/LiIcon";
 import { IconType } from "react-icons";
-import Descripcion from "./Descripcion";
+/* import Descripcion from "./Descripcion"; */
 import { getMyAge } from "../../../utils/years";
 
 const LiLinkIcon = ({
@@ -25,7 +25,7 @@ const LiLinkIcon = ({
 function InformacionGeneral() {
   return (
     <>
-      <Descripcion />
+      {/* <Descripcion /> */}
       <ul style={{display:"grid", gridTemplateColumns:"auto auto", paddingLeft:0}}>
         <section>
           <LiLinkIcon

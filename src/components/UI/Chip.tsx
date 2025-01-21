@@ -1,5 +1,16 @@
-const Chip = ({ children, fontSize, style }: { children: React.ReactNode, fontSize?:string | number, style?: React.CSSProperties }) => (
+const Chip = ({
+  children,
+  fontSize,
+  style,
+  id,
+}: {
+  children: React.ReactNode;
+  fontSize?: string | number;
+  style?: React.CSSProperties;
+  id?: string;
+}) => (
   <span
+    id={id}
     style={{
       borderRadius: ".5rem",
       paddingInline: ".5rem",

@@ -20,7 +20,7 @@ function Idiomas() {
       <ul>
         <li
           role="Ingles"
-          title="Desde los 5 años fui a una institución de ingles, casí rindo el First pero preferí aguardar para estudiar e ir por el C1 (ya que cuesta +$200 USD el intento de ir a rendir"
+          title="Desde los 5 años fui a una institución de ingles, casí rindo el First pero preferí aguardar para estudiar e ir por el C1."
           style={{ display: "flex", gap: "1rem", alignItems: "center" }}
         >
           <label

@@ -1,6 +1,5 @@
 import Idiomas from "./Idiomas";
-import LenguajesDeProgramacion from "./LenguajesDeProgramacion";
-import Herramientas from "./Herramientas";
+import Tecnologias from "./Tecnologias";
 import Aptitudes from "./Aptitudes";
 import FormacionAcademica from "./FormacionAcademica";
 import InformacionGeneral from "./InformacionGeneral";
@@ -26,8 +25,7 @@ function SobreMi() {
       <Aptitudes />
       <FormacionAcademica />
       <Idiomas />
-      <LenguajesDeProgramacion />
-      <Herramientas />
+      <Tecnologias />
     </article>
   );
 }

@@ -43,7 +43,7 @@ function Proyect({
             <section
               style={{
                 display: "flex",
-                gap: "0.5rem",
+                gap: "1.5rem",
               }}
             >
               {topics}
